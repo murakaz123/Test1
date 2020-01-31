@@ -13,7 +13,7 @@ function Smith() {
 		throw new Error("Failed to move to the Smith");
 	}
 
-	Attack.kill("El Herrero"); // The Smith
+	
 	Pickit.pickItems();
 
 	return true;
